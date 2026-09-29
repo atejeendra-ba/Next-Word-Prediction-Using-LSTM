@@ -55,3 +55,54 @@ The project features tokenization, sequence padding, dynamic custom-object deser
 ├── tokenizer.pickle         # Serialized Keras Tokenizer object
 ├── requirements.txt         # Environment dependency manifest
 └── README.md                # Project documentation
+
+```
+---
+
+## 🚀 Getting Started
+
+### **1. Clone the Repository**
+```bash
+git clone [https://github.com/atejeendra-ba/LSTM-Next-Word-Prediction.git](https://github.com/atejeendra-ba/LSTM-Next-Word-Prediction.git)
+cd LSTM-Next-Word-Prediction
+```
+### **2. Set Up Virtual Environment**
+
+#### Windows
+```bash
+python -m venv .venv
+.venv\Scripts\activate.bat
+```
+#### macOS / Linux
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### **3. Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+### **4. Launch the Streamlit App**
+```bash
+streamlit run app.py
+```
+### **5. Explicit Virtual Environment Launch (Windows cmd):**
+```bash
+..\.venv\Scripts\python.exe -m streamlit run app.py
+```
+
+## 🤝 Contributing & License
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+---
+
+## 👤 Author
+
+**A Tejeendra**
+* **GitHub:** [@ATejeendra](https://github.com/atejeendra-ba)
+* **LinkedIn:** [A Tejeendra](https://www.linkedin.com/in/a-tejeendra/)
+
+## 🙏 Acknowledgements
+
+* **TensorFlow & Keras Documentation**
